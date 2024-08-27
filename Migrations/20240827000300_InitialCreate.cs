@@ -23,9 +23,9 @@ namespace StudentEnrollment.API.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Email = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    RA = table.Column<string>(type: "varchar(255)", nullable: false)
+                    RA = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    CPF = table.Column<string>(type: "varchar(255)", nullable: false)
+                    CPF = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     EnrollmentDate = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },
@@ -34,18 +34,6 @@ namespace StudentEnrollment.API.Migrations
                     table.PrimaryKey("PK_Students", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Students_CPF",
-                table: "Students",
-                column: "CPF",
-                unique: true);
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Students_RA",
-                table: "Students",
-                column: "RA",
-                unique: true);
         }
 
         /// <inheritdoc />

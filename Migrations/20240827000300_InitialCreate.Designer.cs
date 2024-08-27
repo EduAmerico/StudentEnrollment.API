@@ -12,7 +12,7 @@ using StudentEnrollment.API.Data;
 namespace StudentEnrollment.API.Migrations
 {
     [DbContext(typeof(StudentContext))]
-    [Migration("20240823111516_InitialCreate")]
+    [Migration("20240827000300_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -33,7 +33,7 @@ namespace StudentEnrollment.API.Migrations
 
                     b.Property<string>("CPF")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -48,15 +48,9 @@ namespace StudentEnrollment.API.Migrations
 
                     b.Property<string>("RA")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CPF")
-                        .IsUnique();
-
-                    b.HasIndex("RA")
-                        .IsUnique();
 
                     b.ToTable("Students");
                 });

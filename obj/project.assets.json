@@ -2775,19 +2775,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marilise Moreira\\.nuget\\packages\\": {}
+    "C:\\Users\\dudum\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marilise Moreira\\StudentEnrollment.API\\StudentEnrollment.API.csproj",
+      "projectUniqueName": "C:\\Users\\dudum\\StudentEnrollment.API\\StudentEnrollment.API.csproj",
       "projectName": "StudentEnrollment.API",
-      "projectPath": "C:\\Users\\Marilise Moreira\\StudentEnrollment.API\\StudentEnrollment.API.csproj",
-      "packagesPath": "C:\\Users\\Marilise Moreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marilise Moreira\\StudentEnrollment.API\\obj\\",
+      "projectPath": "C:\\Users\\dudum\\StudentEnrollment.API\\StudentEnrollment.API.csproj",
+      "packagesPath": "C:\\Users\\dudum\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dudum\\StudentEnrollment.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Marilise Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\dudum\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2854,7 +2854,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
